@@ -25,7 +25,8 @@ public class CogmentoStepDef extends JavaBase{
 			loginPage=new LoginPage();
 			homePage=new HomePage();
 			loginPage.login(uname, password);
-			homePage.isUserloggedin();   
+			homePage.isUserloggedin();
+			System.out.println("newchange");
 		}
 		
 		@Given("click Contact link")
